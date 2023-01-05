@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+void swap(int,int);
+int a,b;
+a=4;
+b=10;
+printf("before swap call a=%d, b=%d",a,b);
+swap(a,b);
+printf("after swap call a=%d,b=%d",a,b);
+getch();
+}
+void swap(int x,int y)
+{
+int z;
+z=x;
+x=y;
+y=z;
+}
