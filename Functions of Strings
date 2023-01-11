@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+    char a[]="Sparsh";
+    char b[]="Goel";
+    clrscr();
+    printf("%s +%s =%s",a,b,strcat(a,b));
+    printf("strcpy(a,b)=%s",strcpy(a,b));
+    if(strcmp(a,b)>0)
+    {
+        printf("A is greater than B\n");
+    }
+        else if(strcmp(a,b)<0)
+        {
+            printf("B is greater than A\n");
+        }
+        else
+        {
+            printf("Both are equal\n");
+        }
+   getch();
+}
