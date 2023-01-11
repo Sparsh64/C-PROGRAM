@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+    char a[]="Sparsh";
+    char b[]="Goel";
+    int x=10;
+    clrscr();
+   if(1)
+   {
+       int a=4;
+       printf("%d",a);
+   }
+   
+   getch();
+}
