@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int x=20;
+void main()
+{
+int a=5;
+clrscr();
+void form(int);
+form(a);
+printf("%d",x);
+getch();
+}
+void form(int y)
+{
+printf("%d\n",x);
+printf("%d\n",y);
+}
